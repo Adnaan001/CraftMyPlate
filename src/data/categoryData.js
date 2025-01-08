@@ -1,0 +1,20 @@
+export const categoryData=[
+    {
+        id:101,
+        name:"Starter",
+        image:"https://res.cloudinary.com/dtrcnajee/image/upload/v1736279925/19992_n7e6wt.jpg",
+        value:"starter"
+    },
+    {
+        id:102,
+        name:"Biryani",
+        image:"https://res.cloudinary.com/dtrcnajee/image/upload/v1736279639/5057_yrxng7.jpg",
+        value:"biryani"
+    },
+    {
+        id:103,
+        name:"Beverages",
+        image:"https://res.cloudinary.com/dtrcnajee/image/upload/v1736280069/9502_va52t1.jpg",
+        value:"beverages"
+    }
+];
