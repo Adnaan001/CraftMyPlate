@@ -28,7 +28,7 @@ const Home = () => {
                                 <div
                                     key={data.id}
                                     className={`cursor-pointer p-2 rounded-lg ${
-                                        category === data.value ? 'bg-primary-100 text-primary-200' : 'bg-gray-50'
+                                        category === data.value ? 'bg-primary-100 text-primary-200  font-bold' : 'bg-gray-50'
                                     }`}
                                     onClick={() => dispatch(setCategory(data.value))}
                                 >
