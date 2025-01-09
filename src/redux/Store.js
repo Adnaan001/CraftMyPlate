@@ -6,3 +6,5 @@ export const store=configureStore({
         cart:CartSlice
     }
 })
+
+console.log("Store==>",store.getState())

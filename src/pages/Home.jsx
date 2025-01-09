@@ -11,7 +11,7 @@ import { categoryData } from '../data/categoryData'
 const Home = () => {
     const {category,cart}=useSelector((state)=>state.cart);
     const dispatch=useDispatch();
-    console.log("cart==>",cart)
+    // console.log("cart==>",cart)
   return (
     <div className='h-full'>
         <Navbar/>
